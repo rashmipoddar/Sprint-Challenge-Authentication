@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 
+const axiosWithAuth = require('../utils/axiosWithAuth');
+
 const Register = () => {
   const [ credentials, setCredentials ] = useState({
     username: '',
